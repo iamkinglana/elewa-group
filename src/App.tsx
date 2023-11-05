@@ -1,7 +1,7 @@
 import MainAbout from './Components/About/AboutPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainInvest from './Components/Invest/InvestPage';
-import MainSocial from './Components/social-impact/MainSocial';
+import MainSocial from './Components/social-impact/SocialImpactPage';
 
 function App() {
   return (
