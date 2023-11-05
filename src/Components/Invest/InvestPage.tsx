@@ -1,5 +1,5 @@
 import React from 'react'
-import IntroInvest from './IntroInvest'
+import IntroInvest from './InvestIntro'
 import InvestGlobal from './InvestGlobal'
 import Footer from '../Top-Bottom/Footer'
 import InvestStatement from './InvestStatement'

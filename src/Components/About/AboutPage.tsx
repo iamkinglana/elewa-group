@@ -4,7 +4,7 @@ import Mission from './Mission';
 import Footer from '../Top-Bottom/Footer';
 import Team from './Team';
 import CultureValues from './CultureValues';
-import MapLocation from './mapLocation';
+import MapLocation from './Location';
 import History from './History';
 
 // This is the main container for the about section

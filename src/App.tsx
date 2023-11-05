@@ -1,6 +1,6 @@
 import MainAbout from './Components/About/AboutPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MainInvest from './Components/Invest/MainInvest';
+import MainInvest from './Components/Invest/InvestPage';
 import MainSocial from './Components/social-impact/MainSocial';
 
 function App() {
