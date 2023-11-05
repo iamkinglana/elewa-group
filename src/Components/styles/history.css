@@ -1,0 +1,104 @@
+.history-carousel {
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 1200px;
+  position: relative;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.history-container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 80px;
+}
+
+.history-container h1 {
+  font-size: 3em;
+  padding-top: 50px;
+  margin-bottom: 80px;
+  font-weight: 800;
+
+}
+
+.carousel-slides {
+  display: flex;
+  flex-direction: row;;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.carousel-slide {
+  width: 450px;
+  height: 350px;
+}
+
+.carousel-content h3{
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 62px;
+}
+
+.carousel-content h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.carousel-content p {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.navi-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.navi-btns button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.76);
+  font-size: 3em;
+  padding: 5px;
+}
+
+.navi-btns button:hover {
+  color: rgb(41, 41, 41);
+}
+
+.learn-elewa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 260px;
+}
+
+.learn-elewa h1 {
+  font-size: 3.2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.learn-elewa a {
+  font-size: 3.4em;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+.learn-elewa a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

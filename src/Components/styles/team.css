@@ -1,0 +1,89 @@
+.Team-section {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+}
+
+.team-container {
+    width: 100%;
+    height: 100%;
+}
+
+.team-container h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(81, 80, 80);
+    padding-top: 60px;
+    margin: 0 80px;
+}
+
+.team-container h2 span {
+    color: white;
+}
+
+.image-carosel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 500px;
+    gap: 10px;
+    margin-top: 80px;
+    width: 100%;
+
+}
+
+.individual {
+    width: 300px;
+    height: 460px;
+    background: transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.individual img {
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.individual h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.individual p {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.individual a span {
+    color: white;
+    font-size: 1em;
+    padding: 2px;
+}
+
+.nav-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-btns span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 3em;
+    padding: 5px;
+}
+
+.nav-btns span:hover {
+    color: white;
+    
+}
